@@ -3,7 +3,7 @@
 
 This repository contains the code, data structure, and supporting material for my PhD thesis:  
 *The Impact of the Digital Economy on the Added Value per Economic Activity in OECD Countries: The Role of Entrepreneurship*  
-School of Economics, Business and International Studies, University of Piraeus (2025).  
+School of Economics, Business and International Studies, University of Piraeus, Greece (2025).  
 Author: **George D. Gkouskos**
 
 ---
@@ -76,4 +76,4 @@ Three econometric models were developed:
 ## Citation
 If you use this repository, please cite as:
 
-**Gkouskos, G. (2025). *PhD Thesis: The Impact of the Digital Economy on the Added Value per Economic Activity in OECD Countries: The Role of Entrepreneurship*. School of Economics, Business and International Studies, University of Piraeus.**
+**Gkouskos, G. (2025). *PhD Thesis: The Impact of the Digital Economy on the Added Value per Economic Activity in OECD Countries: The Role of Entrepreneurship*. School of Economics, Business and International Studies, University of Piraeus, Greece.**

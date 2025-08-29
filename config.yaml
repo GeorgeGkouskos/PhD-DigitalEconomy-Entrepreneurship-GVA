@@ -1,6 +1,0 @@
-dataset_path: data/raw/DatasetMasterCAP.xlsx
-indicator_table: references/Indicator_Table.xlsx
-date_column: Year
-panel_id_column: CountryShort
-plot_folder: figures/irf
-output_excel: data/processed/Results.xlsx

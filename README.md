@@ -9,7 +9,7 @@ Author: **George D. Gkouskos**
 ---
 
 ## Research Logic
-The thesis investigates how the **Digital Economy** – measured through international indexes such as DESI, DETF, DII etc. – affects the **Gross Value Added (GVA)** across economic activities in OECD countries, with a focus on the role of **entrepreneurship**.  
+The thesis investigates how the **Digital Economy** – measured through international indexes such as DESI, DETF, DII etc. – affects the **Gross Value Added (GVA)** across economic activities in OECD countries, with a focus on the role of **Entrepreneurship**.  
 
 The main idea:
 - Digital transformation acts as a driver of productivity, efficiency, and innovation.
@@ -27,10 +27,10 @@ Three econometric models were developed:
 
 2. **SPCAFE (Sparse Principal Component Analysis with Fixed Effects)**  
    - Reduces dimensionality of high-dimensional indicator datasets.  
-   - Extracts the most informative latent factors for sectoral analysis.  
+   - Extracts the most informative latent factors for sectoral analysis and interactions of Digital Economy and Entrepreneurship.  
 
 3. **SPCAFAVAR (FAVAR model with SPCA factors)**  
-   - Studies dynamic interactions between digital economy indicators and sectoral GVA.  
+   - Studies dynamic interactions between digital economy / entrepreneurship indicators and sectoral GVA.  
    - Produces **Impulse Response Functions (IRFs)** showing the response of economic sectors to digital shocks.  
 
 ---

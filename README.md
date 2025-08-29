@@ -9,7 +9,7 @@ Author: **George D. Gkouskos**
 ---
 
 ## Research Logic
-The thesis investigates how the **Digital Economy** – measured through international indexes such as DESI, DETF, GEM, GII, DII – affects the **Gross Value Added (GVA)** across economic activities in OECD countries, with a focus on the role of **entrepreneurship**.  
+The thesis investigates how the **Digital Economy** – measured through international indexes such as DESI, DETF, DII etc. – affects the **Gross Value Added (GVA)** across economic activities in OECD countries, with a focus on the role of **entrepreneurship**.  
 
 The main idea:
 - Digital transformation acts as a driver of productivity, efficiency, and innovation.

@@ -1,5 +1,5 @@
 
-# PhD – Digital Economy & Entrepreneurship
+# PhD – Digital Economy & Entrepreneurship and Gross Value Added per Activity
 
 This repository contains the code, data structure, and supporting material for my PhD thesis:  
 *The Impact of the Digital Economy on the Added Value per Economic Activity in OECD Countries: The Role of Entrepreneurship*  

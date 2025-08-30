@@ -49,7 +49,8 @@ An EU-only slice is highlighted, given stronger data availability across Europea
 
 **Novelty**: 
 To the best of our knowledge, no prior study has constructed a sector-specific digital economy index explicitly anchored in regression-based evidence of impact on Gross Value Added. This approach ensures that the index is not only descriptive, but also causally linked to economic performance.
-Future Steps:
+
+**Future Steps:**
 Extend the methodology to the remaining 19 sectors based on regression results.
 Build a comprehensive, sectoral mapping of the Digital Economy’s contribution to value added across the entire economy (remaining 19 GVA Sectors).
 

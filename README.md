@@ -34,6 +34,22 @@ Three econometric models were developed:
    - Produces **Impulse Response Functions (IRFs)** showing the response of economic sectors to digital shocks.  
 
 ---
+## Pilot Extension – Sectoral Digital Economy Index (SDEI)
+
+In addition to econometric modelling, a pilot composite index was developed: the Sectoral Digital Economy Index (SDEI).
+Objective: Measure the impact of the digital economy at the sectoral level (starting with Education).
+Approach: Followed OECD Handbook on Composite Indicators.
+Selected significant and positive regression outputs as input indicators.
+Grouped them into four pillars (Connectivity & Access, Usage & Online Interaction, Skills & Human Capital, Innovation & Knowledge Base)
+Applied Min–Max normalization and equal weighting (pilot version).
+
+Outputs:
+SDEI–Education computed for all OECD countries (2010–2022).
+An EU-only slice was included due to better data availability in Europe.
+
+Future Steps:
+Extend the methodology to the remaining 19 sectors based on regression results.
+Provide a full sectoral mapping of digital transformation’s impact on GVA.
 
 ## Results (high-level insights)
 - **Primary sectors (Agriculture, Mining):** digitalization has limited but emerging impact.  

@@ -61,8 +61,9 @@ Build a comprehensive, sectoral mapping of the Digital Economy’s contribution 
 - **Entrepreneurship** magnifies these effects, especially in innovation-driven economies.  
 - IRF analysis reveals that digital shocks have **persistent positive effects** on sectoral GVA, with strongest long-term impact in services and ICT.
   
-****These findings support the central hypothesis of the thesis and highlight entrepreneurship as a key amplifier of digitalization’s effects.
-****---
+**These findings support the central hypothesis of the thesis and highlight entrepreneurship as a key amplifier of digitalization’s effects.**
+
+---
 
 ## Repository Structure
 - `code/`

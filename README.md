@@ -58,16 +58,16 @@ Build a comprehensive, sectoral mapping of the Digital Economy’s contribution 
 
 The empirical analysis highlights differentiated sectoral responses to digitalization across the OECD economies:
 
--Primary sectors (Agriculture, Forestry & Fishing; Mining & Quarrying): 
+**-Primary sectors (Agriculture, Forestry & Fishing; Mining & Quarrying):** 
 The impact of digitalization remains limited but shows emerging signs of positive contribution, particularly through improvements in efficiency and resource management.
 
--Secondary sectors (Manufacturing, Construction, Energy, Water & Waste Management): 
+**-Secondary sectors (Manufacturing, Construction, Energy, Water & Waste Management):** 
 Digital transformation has a stronger and more measurable effect, mainly via productivity gains, process automation, and innovation-driven growth.
 
-**-Tertiary and knowledge-intensive sectors (ICT, Finance, Professional, Scientific & Technical Services): **
+**-Tertiary and knowledge-intensive sectors (ICT, Finance, Professional, Scientific & Technical Services):** 
 These sectors record the largest gains, reflecting their higher absorptive capacity for digital technologies and their role as enablers of broader economic spillovers.
 
-**-Entrepreneurship: **
+**-Entrepreneurship:** 
 Functions as a transmission and amplification mechanism, magnifying the positive effects of digitalization, especially in innovation-driven and service-oriented economies.
 
 **-Dynamic responses (Impulse Response Functions):** 

@@ -37,17 +37,17 @@ Three econometric models were developed:
 ## Pilot Extension – Sectoral Digital Economy Index (SDEI)
 
 As a novel extension of the econometric analysis, this thesis develops a **pilot composite index: the Sectoral Digital Economy Index (SDEI).**
-Objective: Measure the impact of the digital economy at the sectoral level (starting with Education Sector).
-Approach: Followed OECD Handbook on Composite Indicators.
-Core idea: The SDEI is directly built on top of the regression results of the First Econometrivc Model above. Only those Digital Economy indicators that showed significant and positive effects on sectoral GVA are included.
-Design: Indicators are grouped into four conceptual pillars (Connectivity & Access, Usage & Online Interaction, Skills & Human Capital, Innovation & Knowledge Base)
+**Objective**: Measure the impact of the digital economy at the sectoral level (starting with Education Sector).
+**Approach**: Followed OECD Handbook on Composite Indicators.
+**Core idea**: The SDEI is directly built on top of the regression results of the First Econometrivc Model above. Only those Digital Economy indicators that showed significant and positive effects on sectoral GVA are included.
+**Design**: Indicators are grouped into four conceptual pillars (Connectivity & Access, Usage & Online Interaction, Skills & Human Capital, Innovation & Knowledge Base)
 Applied Min–Max normalization and equal weighting (pilot version).
 
-Outputs:
+**Outputs**:
 The first application targets the Education sector, producing SDEI–Education scores for OECD countries (2010–2022).
 An EU-only slice is highlighted, given stronger data availability across European countries.
 
-Novelty: 
+**Novelty**: 
 To the best of our knowledge, no prior study has constructed a sector-specific digital economy index explicitly anchored in regression-based evidence of impact on Gross Value Added. This approach ensures that the index is not only descriptive, but also causally linked to economic performance.
 Future Steps:
 Extend the methodology to the remaining 19 sectors based on regression results.

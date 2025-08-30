@@ -1,0 +1,1111 @@
+Panel Regression and Diagnostics Summary
+Generated on: 2025-08-29 16:07:54.985959
+
+
+================================================================================
+Regression Results for: GVA_Agric_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:        GVA_Agric_Total   R-squared:                        0.2888
+Estimator:                   PanelOLS   R-squared (Between):              0.7763
+No. Observations:                 260   R-squared (Within):               0.6418
+Date:                Fri, Aug 29 2025   R-squared (Overall):              0.7617
+Time:                        16:07:55   Log-likelihood                    280.83
+Cov. Estimator:                Robust                                           
+                                        F-statistic:                      30.054
+Entities:                          26   P-value                           0.0000
+Avg Obs:                      10.0000   Distribution:                   F(3,222)
+Min Obs:                      10.0000                                           
+Max Obs:                      10.0000   F-statistic (robust):             21.673
+                                        P-value                           0.0000
+Time periods:                      10   Distribution:                   F(3,222)
+Avg Obs:                       26.000                                           
+Min Obs:                       26.000                                           
+Max Obs:                       26.000                                           
+                                                                                
+                                 Parameter Estimates                                  
+======================================================================================
+                    Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------
+const                  3.1947     0.4531     7.0508     0.0000      2.3018      4.0876
+DESI_FixeVeryHigh      0.0010     0.0011     0.9512     0.3425     -0.0011      0.0031
+CNTRL_InlfAnnuGrow     0.0102     0.0049     2.0794     0.0387      0.0005      0.0199
+L1_GVA_Agric_Total     0.5125     0.0701     7.3078     0.0000      0.3743      0.6507
+======================================================================================
+
+F-test for Poolability: 3.9156
+P-value: 0.0000
+Distribution: F(34,222)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 2.1072
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.1234
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.0000
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.1384
+   - Max VIF: 1.3288
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Mining_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       GVA_Mining_Total   R-squared:                        0.6451
+Estimator:                   PanelOLS   R-squared (Between):              0.9700
+No. Observations:                 243   R-squared (Within):               0.4898
+Date:                Fri, Aug 29 2025   R-squared (Overall):              0.9537
+Time:                        16:07:56   Log-likelihood                    148.96
+Cov. Estimator:                Robust                                           
+                                        F-statistic:                      40.190
+Entities:                          23   P-value                           0.0000
+Avg Obs:                       10.565   Distribution:                   F(9,199)
+Min Obs:                       3.0000                                           
+Max Obs:                       13.000   F-statistic (robust):             28.138
+                                        P-value                           0.0000
+Time periods:                      13   Distribution:                   F(9,199)
+Avg Obs:                       18.692                                           
+Min Obs:                       12.000                                           
+Max Obs:                       23.000                                           
+                                                                                
+                                  Parameter Estimates                                  
+=======================================================================================
+                     Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+---------------------------------------------------------------------------------------
+const                   0.4009     0.5483     0.7311     0.4656     -0.6804      1.4822
+DESI_OverFixeBroa       0.0052     0.0043     1.2199     0.2239     -0.0032      0.0136
+CNTRL_HousDebt          0.0019     0.0009     2.0669     0.0400   8.541e-05      0.0036
+CNTRL_PoveRate          0.1466     1.1442     0.1281     0.8982     -2.1096      2.4028
+CNTRL_FertRateChil     -0.0148     0.1238    -0.1195     0.9050     -0.2589      0.2293
+CNTRL_GrosDomeSpen     -0.0976     0.0537    -1.8176     0.0706     -0.2034      0.0083
+CNTRL_UnemRate         -0.0106     0.0069    -1.5257     0.1287     -0.0242      0.0031
+CNTRL_GeneGoveDebt      0.0022     0.0011     2.0051     0.0463   3.708e-05      0.0045
+CNTRL_EducSpenTert      0.0744     0.0912     0.8148     0.4162     -0.1056      0.2543
+L1_GVA_Mining_Total     0.7990     0.0685     11.672     0.0000      0.6640      0.9340
+=======================================================================================
+
+F-test for Poolability: 4.2756
+P-value: 0.0000
+Distribution: F(34,199)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 1.9959
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.0805
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.0005
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.5493
+   - Max VIF: 3.1685
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Manuf_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:        GVA_Manuf_Total   R-squared:                        0.5006
+Estimator:                   PanelOLS   R-squared (Between):              0.2680
+No. Observations:                  74   R-squared (Within):               0.4791
+Date:                Fri, Aug 29 2025   R-squared (Overall):              0.2774
+Time:                        16:07:56   Log-likelihood                    185.96
+Cov. Estimator:                Robust                                           
+                                        F-statistic:                      3.1738
+Entities:                          21   P-value                           0.0033
+Avg Obs:                       3.5238   Distribution:                   F(12,38)
+Min Obs:                       1.0000                                           
+Max Obs:                       4.0000   F-statistic (robust):             2.4576
+                                        P-value                           0.0175
+Time periods:                       4   Distribution:                   F(12,38)
+Avg Obs:                       18.500                                           
+Min Obs:                       18.000                                           
+Max Obs:                       19.000                                           
+                                                                                
+                                 Parameter Estimates                                  
+======================================================================================
+                    Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------
+const                  7.6946     1.1831     6.5040     0.0000      5.2996      10.090
+DESI_OverFixeBroa      0.0008     0.0028     0.2776     0.7829     -0.0049      0.0064
+DESI_ElecInfoShar      0.0028     0.0021     1.3489     0.1854     -0.0014      0.0070
+DESI_EcomTurn          0.0065     0.0046     1.4102     0.1666     -0.0028      0.0159
+DESI_EgovUser          0.0007     0.0015     0.5086     0.6140     -0.0022      0.0037
+CNTRL_HousDebt        -0.0021     0.0010    -1.9972     0.0530     -0.0042   2.831e-05
+CNTRL_SociSpenPubl    -0.0155     0.0070    -2.2323     0.0316     -0.0296     -0.0014
+CNTRL_PoveGap         -0.7090     0.2417    -2.9338     0.0056     -1.1983     -0.2198
+CNTRL_FertRateChil     0.0622     0.1350     0.4607     0.6476     -0.2111      0.3355
+CNTRL_UnemRate         0.0046     0.0084     0.5432     0.5902     -0.0125      0.0216
+CNTRL_EducSpenTert     0.0841     0.0819     1.0271     0.3109     -0.0816      0.2498
+CNTRL_GiniInde         0.0036     0.0082     0.4403     0.6622     -0.0130      0.0202
+L1_GVA_Manuf_Total     0.1343     0.1264     1.0626     0.2947     -0.1215      0.3901
+======================================================================================
+
+F-test for Poolability: 7.5481
+P-value: 0.0000
+Distribution: F(23,38)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 2.0152
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.1031
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.0000
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.7764
+   - Max VIF: 4.3334
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Electr_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       GVA_Electr_Total   R-squared:                        0.2163
+Estimator:                   PanelOLS   R-squared (Between):              0.4587
+No. Observations:                 163   R-squared (Within):               0.0771
+Date:                Fri, Aug 29 2025   R-squared (Overall):              0.4253
+Time:                        16:07:57   Log-likelihood                    197.44
+Cov. Estimator:                Robust                                           
+                                        F-statistic:                      2.5479
+Entities:                          23   P-value                           0.0039
+Avg Obs:                       7.0870   Distribution:                  F(13,120)
+Min Obs:                       3.0000                                           
+Max Obs:                       8.0000   F-statistic (robust):             3.4127
+                                        P-value                           0.0002
+Time periods:                       8   Distribution:                  F(13,120)
+Avg Obs:                       20.375                                           
+Min Obs:                       18.000                                           
+Max Obs:                       23.000                                           
+                                                                                
+                                  Parameter Estimates                                  
+=======================================================================================
+                     Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+---------------------------------------------------------------------------------------
+const                   8.1005     2.7734     2.9208     0.0042      2.6094      13.592
+DESI_IndInteUsag       -0.0007     0.0042    -0.1595     0.8735     -0.0089      0.0076
+DESI_IctGrad            0.0024     0.0157     0.1551     0.8770     -0.0287      0.0335
+DESI_FixeVeryHigh      -0.0016     0.0014    -1.1450     0.2545     -0.0043      0.0011
+DESI_SmesSellOnli      -0.0010     0.0035    -0.2852     0.7760     -0.0078      0.0059
+CNTRL_AverAnnuHour     -0.0002     0.0003    -0.5464     0.5858     -0.0009      0.0005
+CNTRL_HousDebt          0.0006     0.0007     0.8166     0.4158     -0.0008      0.0020
+CNTRL_LifeExpeBirt     -0.0348     0.0310    -1.1219     0.2642     -0.0963      0.0266
+CNTRL_FertRateChil     -0.1024     0.1221    -0.8385     0.4034     -0.3442      0.1394
+CNTRL_PurcPowePari     -0.0052     0.0057    -0.9066     0.3664     -0.0164      0.0061
+CNTRL_EducSpenTert      0.0037     0.0827     0.0448     0.9643     -0.1600      0.1674
+CNTRL_FdiStocOutw   -6.351e-05  4.094e-05    -1.5514     0.1234     -0.0001   1.754e-05
+CNTRL_GiniInde         -0.0158     0.0090    -1.7617     0.0807     -0.0336      0.0020
+L1_GVA_Electr_Total     0.3537     0.1175     3.0088     0.0032      0.1209      0.5864
+=======================================================================================
+
+F-test for Poolability: 3.1677
+P-value: 0.0000
+Distribution: F(29,120)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 1.8850
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.0860
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.0000
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.3057
+   - Max VIF: 3.8171
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Water_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:        GVA_Water_Total   R-squared:                        0.2630
+Estimator:                   PanelOLS   R-squared (Between):             -9.5507
+No. Observations:                  68   R-squared (Within):               0.1532
+Date:                Fri, Aug 29 2025   R-squared (Overall):             -8.5079
+Time:                        16:07:58   Log-likelihood                    161.21
+Cov. Estimator:                Robust                                           
+                                        F-statistic:                      0.8235
+Entities:                          22   P-value                           0.6333
+Avg Obs:                       3.0909   Distribution:                   F(13,30)
+Min Obs:                       2.0000                                           
+Max Obs:                       4.0000   F-statistic (robust):             3.8889
+                                        P-value                           0.0010
+Time periods:                       4   Distribution:                   F(13,30)
+Avg Obs:                       17.000                                           
+Min Obs:                       3.0000                                           
+Max Obs:                       22.000                                           
+                                                                                
+                                 Parameter Estimates                                  
+======================================================================================
+                    Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------
+const                  5.4609     1.7126     3.1886     0.0033      1.9632      8.9585
+DESI_SmesSellOnli     -0.0020     0.0038    -0.5252     0.6033     -0.0097      0.0057
+DESI_SellOnliCros      0.0002     0.0110     0.0196     0.9845     -0.0222      0.0227
+DESI_EgovUser         -0.0006     0.0020    -0.3014     0.7652     -0.0047      0.0035
+CNTRL_AverAnnuHour  9.098e-05     0.0005     0.1969     0.8453     -0.0009      0.0010
+CNTRL_GrosDomeProd  3.074e-06  9.236e-06     0.3328     0.7416  -1.579e-05   2.194e-05
+CNTRL_StudPerTeac     -0.0027     0.0061    -0.4520     0.6545     -0.0151      0.0096
+CNTRL_SociSpenPriv     0.0687     0.0786     0.8741     0.3890     -0.0918      0.2292
+CNTRL_FertRateChil    -0.0284     0.2346    -0.1211     0.9044     -0.5075      0.4507
+CNTRL_GeneGoveDebt     0.0020     0.0030     0.6718     0.5069     -0.0041      0.0081
+CNTRL_PurcPowePari    -0.0276     0.0098    -2.8224     0.0084     -0.0476     -0.0076
+CNTRL_InlfAnnuGrow     0.0236     0.0124     1.9069     0.0661     -0.0017      0.0488
+CNTRL_GiniInde        -0.0097     0.0104    -0.9349     0.3573     -0.0310      0.0115
+L1_GVA_Water_Total     0.0731     0.2743     0.2663     0.7918     -0.4872      0.6333
+======================================================================================
+
+F-test for Poolability: 1.6859
+P-value: 0.0876
+Distribution: F(24,30)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 2.6697
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.0989
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.1173
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.3898
+   - Max VIF: 4.3362
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Retail_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       GVA_Retail_Total   R-squared:                        0.8105
+Estimator:                   PanelOLS   R-squared (Between):             -0.4975
+No. Observations:                  50   R-squared (Within):              -0.4543
+Date:                Fri, Aug 29 2025   R-squared (Overall):             -0.4019
+Time:                        16:07:59   Log-likelihood                    138.69
+Cov. Estimator:                Robust                                           
+                                        F-statistic:                      1.8003
+Entities:                          21   P-value                           0.1995
+Avg Obs:                       2.3810   Distribution:                    F(19,8)
+Min Obs:                       1.0000                                           
+Max Obs:                       3.0000   F-statistic (robust):             7.7236
+                                        P-value                           0.0030
+Time periods:                       3   Distribution:                    F(19,8)
+Avg Obs:                       16.667                                           
+Min Obs:                       12.000                                           
+Max Obs:                       19.000                                           
+                                                                                
+                                 Parameter Estimates                                  
+======================================================================================
+                    Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------
+const                  8.9028     1.6877     5.2751     0.0008      5.0110      12.795
+DESI_FemaIctSpec       0.0068     0.0100     0.6820     0.5145     -0.0162      0.0299
+DESI_EnteProvIct       0.0042     0.0033     1.2820     0.2357     -0.0033      0.0117
+DESI_IctGrad          -0.0220     0.0211    -1.0432     0.3274     -0.0707      0.0266
+DESI_Leas100Mbps      -0.0019     0.0020    -0.9073     0.3907     -0.0066      0.0029
+DESI_FixeVeryHigh     -0.0018     0.0060    -0.2993     0.7724     -0.0156      0.0120
+DESI_4gCove           -0.0016     0.0099    -0.1652     0.8729     -0.0246      0.0213
+DESI_Clou             -0.0013     0.0018    -0.7370     0.4822     -0.0055      0.0029
+DESI_SmesSellOnli      0.0016     0.0111     0.1463     0.8873     -0.0241      0.0273
+DESI_SellOnliCros      0.0238     0.0152     1.5708     0.1549     -0.0112      0.0588
+CNTRL_AnnuGdpGrow      0.0023     0.0129     0.1782     0.8630     -0.0274      0.0319
+CNTRL_StudPerTeac     -0.0067     0.0097    -0.6933     0.5077     -0.0291      0.0156
+CNTRL_PoveGap         -1.9283     0.9461    -2.0382     0.0759     -4.1099      0.2534
+CNTRL_FertRateChil     0.2928     0.2674     1.0947     0.3055     -0.3239      0.9094
+CNTRL_UnemRate         0.0008     0.0395     0.0197     0.9848     -0.0903      0.0919
+CNTRL_PurcPowePari    -0.0034     0.0187    -0.1834     0.8590     -0.0465      0.0396
+CNTRL_EducSpenTert    -0.1787     0.2092    -0.8540     0.4180     -0.6611      0.3038
+CNTRL_FdiStocInwa     -0.0002     0.0008    -0.2863     0.7819     -0.0021      0.0016
+CNTRL_FdiFlowInwa      0.0023     0.0053     0.4344     0.6755     -0.0100      0.0146
+CNTRL_InlfAnnuGrow    -0.0055     0.0141    -0.3921     0.7052     -0.0381      0.0270
+======================================================================================
+
+F-test for Poolability: 12.648
+P-value: 0.0005
+Distribution: F(22,8)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 2.7753
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.4658
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.0000
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.5538
+   - Max VIF: 4.6240
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Trans_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:        GVA_Trans_Total   R-squared:                        0.7628
+Estimator:                   PanelOLS   R-squared (Between):             -2.4961
+No. Observations:                  48   R-squared (Within):               0.4890
+Date:                Fri, Aug 29 2025   R-squared (Overall):             -2.9133
+Time:                        16:08:00   Log-likelihood                    146.67
+Cov. Estimator:                Robust                                           
+                                        F-statistic:                      2.0812
+Entities:                          17   P-value                           0.1093
+Avg Obs:                       2.8235   Distribution:                   F(17,11)
+Min Obs:                       1.0000                                           
+Max Obs:                       4.0000   F-statistic (robust):             10.620
+                                        P-value                           0.0002
+Time periods:                       4   Distribution:                   F(17,11)
+Avg Obs:                       12.000                                           
+Min Obs:                       2.0000                                           
+Max Obs:                       16.000                                           
+                                                                                
+                                 Parameter Estimates                                  
+======================================================================================
+                    Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------
+const                  4.6062     2.5114     1.8341     0.0938     -0.9214      10.134
+DESI_EnteProvIct      -0.0003     0.0012    -0.2367     0.8173     -0.0029      0.0023
+DESI_IctGrad          -0.0020     0.0205    -0.0973     0.9243     -0.0470      0.0430
+DESI_Leas100Mbps       0.0033     0.0017     1.9944     0.0715     -0.0003      0.0070
+DESI_FastBroaNga       0.0008     0.0023     0.3253     0.7510     -0.0044      0.0059
+DESI_FixeVeryHigh      0.0025     0.0031     0.8122     0.4339     -0.0043      0.0094
+DESI_EcomTurn         -0.0051     0.0040    -1.2675     0.2312     -0.0139      0.0037
+CNTRL_AnnuGdpGrow      0.0130     0.0062     2.1133     0.0582     -0.0005      0.0265
+CNTRL_HousSpenAnnu    -0.0019     0.0044    -0.4475     0.6632     -0.0115      0.0076
+CNTRL_InveGfcfAnnu     0.0017     0.0011     1.4606     0.1721     -0.0008      0.0042
+CNTRL_HousDebt         0.0036     0.0031     1.1829     0.2618     -0.0031      0.0104
+CNTRL_TertGradRate    -0.0020     0.0073    -0.2685     0.7932     -0.0180      0.0140
+CNTRL_SociSpenPubl     0.0174     0.0297     0.5855     0.5700     -0.0479      0.0826
+CNTRL_FertRateChil     0.1049     0.1972     0.5320     0.6053     -0.3291      0.5389
+CNTRL_UnemRate         0.0010     0.0127     0.0784     0.9389     -0.0269      0.0289
+CNTRL_PurcPowePari     0.0145     0.0161     0.9006     0.3871     -0.0210      0.0501
+CNTRL_InlfAnnuGrow    -0.0018     0.0302    -0.0589     0.9541     -0.0682      0.0647
+L1_GVA_Trans_Total     0.2491     0.3832     0.6499     0.5291     -0.5944      1.0926
+======================================================================================
+
+F-test for Poolability: 5.3119
+P-value: 0.0035
+Distribution: F(19,11)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 2.9153
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.1151
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.0362
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.6752
+   - Max VIF: 4.6512
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Accom_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:        GVA_Accom_Total   R-squared:                        0.6647
+Estimator:                   PanelOLS   R-squared (Between):              0.9341
+No. Observations:                 408   R-squared (Within):               0.5636
+Date:                Fri, Aug 29 2025   R-squared (Overall):              0.9199
+Time:                        16:08:01   Log-likelihood                    513.64
+Cov. Estimator:                Robust                                           
+                                        F-statistic:                      99.392
+Entities:                          35   P-value                           0.0000
+Avg Obs:                       11.657   Distribution:                   F(7,351)
+Min Obs:                       1.0000                                           
+Max Obs:                       16.000   F-statistic (robust):             68.864
+                                        P-value                           0.0000
+Time periods:                      16   Distribution:                   F(7,351)
+Avg Obs:                       25.500                                           
+Min Obs:                       15.000                                           
+Max Obs:                       32.000                                           
+                                                                                
+                                 Parameter Estimates                                  
+======================================================================================
+                    Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------
+const                  0.6410     0.7923     0.8091     0.4190     -0.9171      2.1992
+CNTRL_GrosDomeProd  1.187e-07  1.807e-06     0.0657     0.9477  -3.435e-06   3.672e-06
+CNTRL_LifeExpeBirt     0.0064     0.0111     0.5746     0.5660     -0.0155      0.0282
+CNTRL_PoveRate        -0.1356     0.5879    -0.2306     0.8177     -1.2918      1.0206
+CNTRL_PoveGap         -0.2850     0.2496    -1.1419     0.2543     -0.7758      0.2059
+CNTRL_AverSalaAnnu  3.854e-06  2.483e-06     1.5524     0.1215  -1.029e-06   8.736e-06
+CNTRL_GeneGoveDebt     0.0003     0.0005     0.7198     0.4721     -0.0006      0.0012
+L1_GVA_Accom_Total     0.8135     0.0534     15.238     0.0000      0.7085      0.9186
+======================================================================================
+
+F-test for Poolability: 27.783
+P-value: 0.0000
+Distribution: F(49,351)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 2.1789
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.0000
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.0000
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.6196
+   - Max VIF: 3.8562
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_FININS_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       GVA_FININS_Total   R-squared:                        0.6657
+Estimator:                   PanelOLS   R-squared (Between):              0.1775
+No. Observations:                  54   R-squared (Within):               0.7663
+Date:                Fri, Aug 29 2025   R-squared (Overall):              0.1385
+Time:                        16:08:02   Log-likelihood                    116.78
+Cov. Estimator:                Robust                                           
+                                        F-statistic:                      3.4845
+Entities:                          18   P-value                           0.0060
+Avg Obs:                       3.0000   Distribution:                   F(12,21)
+Min Obs:                       2.0000                                           
+Max Obs:                       4.0000   F-statistic (robust):             8.7745
+                                        P-value                           0.0000
+Time periods:                       4   Distribution:                   F(12,21)
+Avg Obs:                       13.500                                           
+Min Obs:                       2.0000                                           
+Max Obs:                       18.000                                           
+                                                                                
+                                 Parameter Estimates                                  
+======================================================================================
+                    Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------
+const                  3.6406     6.6216     0.5498     0.5883     -10.130      17.411
+DESI_EnteProvIct      -0.0064     0.0042    -1.5092     0.1461     -0.0152      0.0024
+DESI_Leas100Mbps       0.0010     0.0027     0.3901     0.7004     -0.0045      0.0066
+DESI_FastBroaNga      -0.0022     0.0032    -0.6777     0.5053     -0.0088      0.0045
+DESI_SmesSellOnli     -0.0106     0.0055    -1.9109     0.0698     -0.0221      0.0009
+DESI_SellOnliCros      0.0194     0.0213     0.9136     0.3713     -0.0248      0.0637
+DESI_EgovUser         -0.0009     0.0032    -0.2867     0.7772     -0.0075      0.0057
+CNTRL_AnnuGdpGrow      0.0141     0.0108     1.3035     0.2065     -0.0084      0.0366
+CNTRL_TertGradRate    -0.0096     0.0056    -1.7235     0.0995     -0.0211      0.0020
+CNTRL_LifeExpeBirt     0.0286     0.0819     0.3494     0.7303     -0.1418      0.1990
+CNTRL_SociSpenPriv    -0.2476     0.1973    -1.2549     0.2233     -0.6580      0.1628
+CNTRL_AverSalaAnnu  6.004e-05   1.44e-05     4.1709     0.0004    3.01e-05   8.998e-05
+CNTRL_FdiFlowOutw      0.0007     0.0015     0.4747     0.6399     -0.0024      0.0038
+======================================================================================
+
+F-test for Poolability: 60.462
+P-value: 0.0000
+Distribution: F(20,21)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 2.2242
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.0213
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.3346
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.3415
+   - Max VIF: 3.8430
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_RealEstate_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                           PanelOLS Estimation Summary                            
+==================================================================================
+Dep. Variable:     GVA_RealEstate_Total   R-squared:                        0.7739
+Estimator:                     PanelOLS   R-squared (Between):              0.8904
+No. Observations:                   409   R-squared (Within):               0.9503
+Date:                  Fri, Aug 29 2025   R-squared (Overall):              0.8972
+Time:                          16:08:03   Log-likelihood                    683.17
+Cov. Estimator:                  Robust                                           
+                                          F-statistic:                      153.56
+Entities:                            26   P-value                           0.0000
+Avg Obs:                         15.731   Distribution:                   F(8,359)
+Min Obs:                         2.0000                                           
+Max Obs:                         17.000   F-statistic (robust):             91.533
+                                          P-value                           0.0000
+Time periods:                        17   Distribution:                   F(8,359)
+Avg Obs:                         24.059                                           
+Min Obs:                         21.000                                           
+Max Obs:                         25.000                                           
+                                                                                  
+                                    Parameter Estimates                                    
+===========================================================================================
+                         Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------------------
+const                       1.1013     0.4946     2.2267     0.0266      0.1286      2.0740
+DESI_IndInteUsag            0.0020     0.0009     2.3732     0.0182      0.0003      0.0037
+CNTRL_AverAnnuHour       9.498e-05     0.0001     0.8999     0.3688     -0.0001      0.0003
+CNTRL_GrosDomeProd       5.345e-07  1.053e-06     0.5076     0.6120  -1.536e-06   2.605e-06
+CNTRL_HealSpen             -0.0062     0.0056    -1.0963     0.2737     -0.0172      0.0049
+CNTRL_LifeExpeBirt          0.0036     0.0056     0.6372     0.5244     -0.0074      0.0146
+CNTRL_GeneGoveDebt         -0.0005     0.0003    -1.9383     0.0534     -0.0010   7.289e-06
+CNTRL_PurcPowePari          0.0042     0.0014     2.9609     0.0033      0.0014      0.0070
+L1_GVA_RealEstate_Total     0.8034     0.0472     17.037     0.0000      0.7106      0.8961
+===========================================================================================
+
+F-test for Poolability: 4.5818
+P-value: 0.0000
+Distribution: F(41,359)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 1.9367
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.4604
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.0000
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.1875
+   - Max VIF: 4.5801
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Adminsupp_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                           PanelOLS Estimation Summary                           
+=================================================================================
+Dep. Variable:     GVA_Adminsupp_Total   R-squared:                        0.3831
+Estimator:                    PanelOLS   R-squared (Between):             -0.3279
+No. Observations:                   58   R-squared (Within):              -0.3277
+Date:                 Fri, Aug 29 2025   R-squared (Overall):             -0.4349
+Time:                         16:08:04   Log-likelihood                    123.00
+Cov. Estimator:                 Robust                                           
+                                         F-statistic:                      1.4906
+Entities:                           21   P-value                           0.2032
+Avg Obs:                        2.7619   Distribution:                   F(10,24)
+Min Obs:                        1.0000                                           
+Max Obs:                        4.0000   F-statistic (robust):             1.9946
+                                         P-value                           0.0806
+Time periods:                        4   Distribution:                   F(10,24)
+Avg Obs:                        14.500                                           
+Min Obs:                        3.0000                                           
+Max Obs:                        21.000                                           
+                                                                                 
+                                 Parameter Estimates                                  
+======================================================================================
+                    Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------
+const                  14.375     4.2149     3.4106     0.0023      5.6762      23.074
+DESI_IctSpec          -0.0793     0.0682    -1.1633     0.2562     -0.2201      0.0614
+DESI_BigData           0.0031     0.0058     0.5293     0.6015     -0.0089      0.0150
+DESI_EcomTurn          0.0031     0.0057     0.5400     0.5941     -0.0086      0.0147
+CNTRL_AverAnnuHour    -0.0001     0.0009    -0.1301     0.8976     -0.0019      0.0016
+CNTRL_StudPerTeac      0.0178     0.0098     1.8304     0.0796     -0.0023      0.0380
+CNTRL_LifeExpeBirt    -0.0783     0.0521    -1.5025     0.1460     -0.1860      0.0293
+CNTRL_SociSpenPriv     0.0560     0.1141     0.4910     0.6279     -0.1794      0.2914
+CNTRL_PoveRate        -3.2628     1.9552    -1.6688     0.1082     -7.2981      0.7726
+CNTRL_GeneGoveDebt    -0.0050     0.0032    -1.5487     0.1346     -0.0117      0.0017
+CNTRL_EducSpenTert     0.0050     0.1521     0.0331     0.9739     -0.3089      0.3190
+======================================================================================
+
+F-test for Poolability: 63.768
+P-value: 0.0000
+Distribution: F(23,24)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 2.3401
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.9178
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.1126
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.7552
+   - Max VIF: 4.0348
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_PublicAdmin_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                            PanelOLS Estimation Summary                            
+===================================================================================
+Dep. Variable:     GVA_PublicAdmin_Total   R-squared:                        0.7736
+Estimator:                      PanelOLS   R-squared (Between):              0.8613
+No. Observations:                     54   R-squared (Within):               0.6759
+Date:                   Fri, Aug 29 2025   R-squared (Overall):              0.8143
+Time:                           16:08:05   Log-likelihood                    186.14
+Cov. Estimator:                   Robust                                           
+                                           F-statistic:                      5.2570
+Entities:                             18   P-value                           0.0005
+Avg Obs:                          3.0000   Distribution:                   F(13,20)
+Min Obs:                          2.0000                                           
+Max Obs:                          4.0000   F-statistic (robust):             7.4557
+                                           P-value                           0.0000
+Time periods:                          4   Distribution:                   F(13,20)
+Avg Obs:                          13.500                                           
+Min Obs:                          2.0000                                           
+Max Obs:                          18.000                                           
+                                                                                   
+                                    Parameter Estimates                                     
+============================================================================================
+                          Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------------
+const                        1.5522     1.3666     1.1358     0.2695     -1.2985      4.4029
+DESI_IctGrad                 0.0191     0.0096     1.9827     0.0613     -0.0010      0.0393
+DESI_Leas100Mbps             0.0010     0.0011     0.8681     0.3956     -0.0013      0.0033
+DESI_SmesSellOnli           -0.0049     0.0025    -1.9747     0.0623     -0.0102      0.0003
+DESI_SellOnliCros           -0.0098     0.0081    -1.2053     0.2422     -0.0267      0.0071
+CNTRL_AnnuGdpGrow           -0.0016     0.0057    -0.2868     0.7772     -0.0135      0.0102
+CNTRL_AverAnnuHour           0.0003     0.0002     1.3052     0.2067     -0.0002      0.0008
+CNTRL_TertGradRate          -0.0055     0.0038    -1.4358     0.1665     -0.0135      0.0025
+CNTRL_SociSpenPriv           0.0245     0.0364     0.6739     0.5081     -0.0514      0.1005
+CNTRL_SociSpenPubl           0.0159     0.0111     1.4271     0.1690     -0.0073      0.0391
+CNTRL_FertRateChil           0.0429     0.1028     0.4176     0.6807     -0.1715      0.2573
+CNTRL_UnemRate               0.0042     0.0066     0.6349     0.5327     -0.0096      0.0181
+CNTRL_GiniInde              -0.0039     0.0046    -0.8302     0.4162     -0.0135      0.0058
+L1_GVA_PublicAdmin_Total     0.7260     0.1992     3.6452     0.0016      0.3105      1.1414
+============================================================================================
+
+F-test for Poolability: 5.5176
+P-value: 0.0002
+Distribution: F(20,20)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 2.0340
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.6146
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.0050
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.6897
+   - Max VIF: 4.9603
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Edu_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:          GVA_Edu_Total   R-squared:                        0.3159
+Estimator:                   PanelOLS   R-squared (Between):             -0.0129
+No. Observations:                 174   R-squared (Within):               0.3983
+Date:                Fri, Aug 29 2025   R-squared (Overall):              0.0774
+Time:                        16:08:06   Log-likelihood                    328.47
+Cov. Estimator:                Robust                                           
+                                        F-statistic:                      5.4565
+Entities:                          25   P-value                           0.0000
+Avg Obs:                       6.9600   Distribution:                  F(11,130)
+Min Obs:                       2.0000                                           
+Max Obs:                       9.0000   F-statistic (robust):             6.0495
+                                        P-value                           0.0000
+Time periods:                       9   Distribution:                  F(11,130)
+Avg Obs:                       19.333                                           
+Min Obs:                       1.0000                                           
+Max Obs:                       24.000                                           
+                                                                                
+                                 Parameter Estimates                                  
+======================================================================================
+                    Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------
+const                  7.9430     1.6123     4.9265     0.0000      4.7532      11.133
+DESI_IctGrad           0.0249     0.0096     2.5972     0.0105      0.0059      0.0439
+DESI_OverFixeBroa      0.0039     0.0018     2.1769     0.0313      0.0004      0.0074
+DESI_SmesSellOnli      0.0011     0.0019     0.6019     0.5483     -0.0026      0.0049
+CNTRL_AverAnnuHour    -0.0001     0.0002    -0.5868     0.5584     -0.0005      0.0003
+CNTRL_GrosDomeProd -1.303e-06  2.744e-06    -0.4749     0.6357  -6.731e-06   4.125e-06
+CNTRL_LifeExpeBirt    -0.0090     0.0211    -0.4280     0.6693     -0.0507      0.0327
+CNTRL_SociSpenPubl     0.0161     0.0067     2.4062     0.0175      0.0029      0.0294
+CNTRL_PoveRate         0.8222     0.5021     1.6377     0.1039     -0.1710      1.8155
+CNTRL_GrosDomeSpen    -0.0090     0.0319    -0.2809     0.7793     -0.0721      0.0542
+CNTRL_GeneGoveDebt    -0.0029     0.0010    -2.8217     0.0055     -0.0050     -0.0009
+CNTRL_EducSpenTert    -0.0578     0.0439    -1.3176     0.1899     -0.1446      0.0290
+======================================================================================
+
+F-test for Poolability: 18.220
+P-value: 0.0000
+Distribution: F(32,130)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 1.1610
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.0018
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.0000
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.7334
+   - Max VIF: 4.9081
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Health_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       GVA_Health_Total   R-squared:                        0.7401
+Estimator:                   PanelOLS   R-squared (Between):             -2.3655
+No. Observations:                  45   R-squared (Within):              -0.0514
+Date:                Fri, Aug 29 2025   R-squared (Overall):             -2.1466
+Time:                        16:08:07   Log-likelihood                    106.00
+Cov. Estimator:                Robust                                           
+                                        F-statistic:                      1.8985
+Entities:                          18   P-value                           0.1542
+Avg Obs:                       2.5000   Distribution:                   F(15,10)
+Min Obs:                       1.0000                                           
+Max Obs:                       3.0000   F-statistic (robust):             15.185
+                                        P-value                           0.0001
+Time periods:                       3   Distribution:                   F(15,10)
+Avg Obs:                       15.000                                           
+Min Obs:                       11.000                                           
+Max Obs:                       18.000                                           
+                                                                                
+                                 Parameter Estimates                                  
+======================================================================================
+                    Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------
+const                  16.593     5.1470     3.2239     0.0091      5.1249      28.061
+DESI_Leas100Mbps      -0.0077     0.0033    -2.3294     0.0421     -0.0151     -0.0003
+DESI_FastBroaNga       0.0068     0.0058     1.1730     0.2680     -0.0061      0.0196
+DESI_FixeVeryHigh     -0.0044     0.0064    -0.6792     0.5124     -0.0186      0.0099
+DESI_Clou             -0.0068     0.0025    -2.6883     0.0228     -0.0125     -0.0012
+DESI_SmesSellOnli     -0.0175     0.0102    -1.7107     0.1179     -0.0404      0.0053
+CNTRL_AverAnnuHour    -0.0011     0.0008    -1.3717     0.2001     -0.0028      0.0007
+CNTRL_HousDebt        -0.0057     0.0033    -1.7421     0.1121     -0.0129      0.0016
+CNTRL_TertGradRate     0.0087     0.0054     1.6111     0.1382     -0.0033      0.0208
+CNTRL_StudPerTeac     -0.0261     0.0183    -1.4309     0.1830     -0.0668      0.0146
+CNTRL_LifeExpeBirt    -0.0699     0.0671    -1.0419     0.3220     -0.2194      0.0796
+CNTRL_PoveRate        -2.9526     1.7453    -1.6917     0.1216     -6.8415      0.9362
+CNTRL_PoveGap         -1.3075     0.7860    -1.6635     0.1272     -3.0588      0.4438
+CNTRL_UnemRate         0.0411     0.0266     1.5448     0.1534     -0.0182      0.1003
+CNTRL_FdiStocOutw     -0.0003     0.0002    -1.7477     0.1111     -0.0007   7.957e-05
+CNTRL_InlfAnnuGrow    -0.0478     0.0286    -1.6745     0.1250     -0.1115      0.0158
+======================================================================================
+
+F-test for Poolability: 9.4219
+P-value: 0.0005
+Distribution: F(19,10)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 2.2890
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.3110
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.0000
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.6378
+   - Max VIF: 4.1306
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Artentert_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                           PanelOLS Estimation Summary                           
+=================================================================================
+Dep. Variable:     GVA_Artentert_Total   R-squared:                        0.4086
+Estimator:                    PanelOLS   R-squared (Between):             -4.2451
+No. Observations:                   74   R-squared (Within):               0.1824
+Date:                 Fri, Aug 29 2025   R-squared (Overall):             -4.1397
+Time:                         16:08:08   Log-likelihood                    111.61
+Cov. Estimator:                 Robust                                           
+                                         F-statistic:                      1.7766
+Entities:                           21   P-value                           0.0823
+Avg Obs:                        3.5238   Distribution:                   F(14,36)
+Min Obs:                        1.0000                                           
+Max Obs:                        4.0000   F-statistic (robust):             2.7162
+                                         P-value                           0.0079
+Time periods:                        4   Distribution:                   F(14,36)
+Avg Obs:                        18.500                                           
+Min Obs:                        17.000                                           
+Max Obs:                        20.000                                           
+                                                                                 
+                                   Parameter Estimates                                    
+==========================================================================================
+                        Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------------------
+const                      7.9155     6.9073     1.1460     0.2594     -6.0931      21.924
+DESI_FemaIctSpec          -0.0029     0.0110    -0.2685     0.7899     -0.0251      0.0193
+DESI_EnteProvIct           0.0076     0.0053     1.4372     0.1593     -0.0031      0.0182
+DESI_IctGrad               0.0283     0.0364     0.7770     0.4422     -0.0455      0.1021
+DESI_OverFixeBroa         -0.0121     0.0077    -1.5868     0.1213     -0.0277      0.0034
+DESI_FixeVeryHigh          0.0042     0.0037     1.1094     0.2746     -0.0034      0.0118
+DESI_ElecInfoShar          0.0088     0.0046     1.9055     0.0647     -0.0006      0.0181
+CNTRL_HousSpenAnnu         0.0079     0.0096     0.8176     0.4190     -0.0117      0.0274
+CNTRL_StudPerTeac          0.0015     0.0157     0.0941     0.9255     -0.0303      0.0333
+CNTRL_LifeExpeBirt        -0.0524     0.0729    -0.7185     0.4771     -0.2002      0.0955
+CNTRL_SociSpenPubl        -0.0096     0.0210    -0.4570     0.6504     -0.0523      0.0330
+CNTRL_FertRateChil        -0.0352     0.3696    -0.0953     0.9246     -0.7848      0.7144
+CNTRL_PurcPowePari         0.0233     0.0219     1.0644     0.2942     -0.0211      0.0678
+CNTRL_GiniInde            -0.0036     0.0244    -0.1466     0.8843     -0.0531      0.0460
+L1_GVA_Artentert_Total     0.4773     0.3948     1.2090     0.2345     -0.3234      1.2780
+==========================================================================================
+
+F-test for Poolability: 1.2187
+P-value: 0.2909
+Distribution: F(23,36)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 1.8470
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.3735
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.1067
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.2785
+   - Max VIF: 3.9086
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Others_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       GVA_Others_Total   R-squared:                        0.3349
+Estimator:                   PanelOLS   R-squared (Between):              0.7950
+No. Observations:                 379   R-squared (Within):               0.7672
+Date:                Fri, Aug 29 2025   R-squared (Overall):              0.7651
+Time:                        16:08:08   Log-likelihood                    476.08
+Cov. Estimator:                Robust                                           
+                                        F-statistic:                      23.736
+Entities:                          26   P-value                           0.0000
+Avg Obs:                       14.577   Distribution:                   F(7,330)
+Min Obs:                       3.0000                                           
+Max Obs:                       17.000   F-statistic (robust):             14.853
+                                        P-value                           0.0000
+Time periods:                      17   Distribution:                   F(7,330)
+Avg Obs:                       22.294                                           
+Min Obs:                       1.0000                                           
+Max Obs:                       26.000                                           
+                                                                                
+                                 Parameter Estimates                                  
+======================================================================================
+                    Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------
+const                  1.1434     1.0331     1.1068     0.2692     -0.8888      3.1757
+DESI_IndInteUsag       0.0026     0.0014     1.9105     0.0569   -7.82e-05      0.0054
+DESI_FemaIctSpec      -0.0027     0.0016    -1.7017     0.0897     -0.0059      0.0004
+CNTRL_AverAnnuHour  4.154e-06     0.0002     0.0224     0.9822     -0.0004      0.0004
+CNTRL_HealSpen        -0.0153     0.0085    -1.8026     0.0724     -0.0319      0.0014
+CNTRL_LifeExpeBirt     0.0514     0.0112     4.5853     0.0000      0.0294      0.0735
+CNTRL_GrosDomeSpen     0.0074     0.0170     0.4345     0.6642     -0.0261      0.0409
+CNTRL_AverSalaAnnu  1.795e-05  2.407e-06     7.4595     0.0000   1.322e-05   2.269e-05
+======================================================================================
+
+F-test for Poolability: 61.344
+P-value: 0.0000
+Distribution: F(41,330)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 0.7877
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.0027
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.1875
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.3648
+   - Max VIF: 4.7097
+================================================================================
+
+
+================================================================================
+Regression Results for: GVA_Householdactiv_Total
+(Note: Includes a 1-period lag of the dependent variable to control for autocorrelation)
+================================================================================
+                             PanelOLS Estimation Summary                              
+======================================================================================
+Dep. Variable:     GVA_Householdactiv_Total   R-squared:                        0.4275
+Estimator:                         PanelOLS   R-squared (Between):              0.7295
+No. Observations:                       372   R-squared (Within):               0.4420
+Date:                      Fri, Aug 29 2025   R-squared (Overall):              0.6174
+Time:                              16:08:09   Log-likelihood                   -463.22
+Cov. Estimator:                      Robust                                           
+                                              F-statistic:                      29.773
+Entities:                                30   P-value                           0.0000
+Avg Obs:                             12.400   Distribution:                   F(8,319)
+Min Obs:                             2.0000                                           
+Max Obs:                             16.000   F-statistic (robust):             2.9423
+                                              P-value                           0.0035
+Time periods:                            16   Distribution:                   F(8,319)
+Avg Obs:                             23.250                                           
+Min Obs:                             15.000                                           
+Max Obs:                             28.000                                           
+                                                                                      
+                                      Parameter Estimates                                      
+===============================================================================================
+                             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------------
+const                           3.8171     5.3706     0.7107     0.4778     -6.7493      14.383
+CNTRL_InveGfcfAnnu             -0.0150     0.0102    -1.4619     0.1448     -0.0351      0.0052
+CNTRL_LifeExpeBirt              0.0038     0.0692     0.0549     0.9562     -0.1323      0.1399
+CNTRL_SociSpenPubl             -0.0373     0.0208    -1.7885     0.0746     -0.0783      0.0037
+CNTRL_PoveRate                  6.1414     4.6758     1.3134     0.1900     -3.0580      15.341
+CNTRL_FertRateChil             -0.0502     0.3071    -0.1634     0.8703     -0.6544      0.5540
+CNTRL_InlfAnnuGrow             -0.0639     0.0462    -1.3837     0.1674     -0.1547      0.0269
+CNTRL_GiniInde                 -0.0552     0.0310    -1.7818     0.0757     -0.1162      0.0058
+L1_GVA_Householdactiv_Total     0.4714     0.3535     1.3333     0.1834     -0.2242      1.1670
+===============================================================================================
+
+F-test for Poolability: 2.0053
+P-value: 0.0004
+Distribution: F(44,319)
+
+Included effects: Entity, Time
+
+------------------------------ Model Diagnostics ------------------------------
+
+1. Durbin-Watson Statistic: 2.9476
+   - Interpretation: Values around 2.0 suggest no first-order autocorrelation. Values < 1.5 suggest positive, > 2.5 suggest negative autocorrelation.
+   - Note: Model includes a 1-period lag of the dependent variable to control for autocorrelation.
+
+2. Breusch-Pagan Test (p-value): 0.0000
+   - Interpretation: Tests for heteroskedasticity. A p-value < 0.05 suggests its presence, justifying the use of robust standard errors.
+
+3. Hausman Test (p-value): 0.0000
+   - Interpretation: Compares Fixed vs. Random Effects. A p-value < 0.05 suggests that fixed effects are the preferred model.
+
+4. Final Variable VIFs:
+   - Min VIF: 1.0614
+   - Max VIF: 4.6520
+================================================================================

@@ -55,13 +55,19 @@ Extend the methodology to the remaining 19 sectors based on regression results.
 Build a comprehensive, sectoral mapping of the Digital Economy’s contribution to value added across the entire economy (remaining 19 GVA Sectors).
 
 ## Results (high-level insights)
-- **Primary sectors (Agriculture, Mining):** digitalization has limited but emerging impact.  
-- **Secondary sectors (Manufacturing, Construction, Energy):** stronger effect via productivity and innovation.  
-- **Tertiary & knowledge-intensive sectors (ICT, Finance, Professional Services):** show the **largest gains from digital economy adoption**.  
-- **Entrepreneurship** magnifies these effects, especially in innovation-driven economies.  
-- IRF analysis reveals that digital shocks have **persistent positive effects** on sectoral GVA, with strongest long-term impact in services and ICT.
+
+The empirical analysis highlights differentiated sectoral responses to digitalization across the OECD economies:
+
+-Primary sectors (Agriculture, Forestry & Fishing; Mining & Quarrying): The impact of digitalization remains limited but shows emerging signs of positive contribution, particularly through improvements in efficiency and resource management.
+-Secondary sectors (Manufacturing, Construction, Energy, Water & Waste Management): Digital transformation has a stronger and more measurable effect, mainly via productivity gains, process automation, and innovation-driven growth.
+-Tertiary and knowledge-intensive sectors (ICT, Finance, Professional, Scientific & Technical Services): These sectors record the largest gains, reflecting their higher absorptive capacity for digital technologies and their role as enablers of broader economic spillovers.
+-Entrepreneurship: Functions as a transmission and amplification mechanism, magnifying the positive effects of digitalization, especially in innovation-driven and service-oriented economies.
+-Dynamic responses (Impulse Response Functions): IRF analysis reveals that digital shocks exert persistent and long-term positive effects on Gross Value Added (GVA), with the strongest sustained impacts observed in services, ICT, and finance.
+-Sectoral Digital Economy Index (SDEI): The pilot implementation of the SDEI for the Education sector demonstrates the feasibility of constructing sector-specific digital economy indicators grounded in econometric evidence. Results show consistent and robust index scores across OECD countries, with the EU slice confirming data reliability and comparability. This provides a strong foundation for extending the index methodology to additional sectors in future research.
+
+These findings confirm the central hypothesis of the thesis: **the Digital Economy is a key driver of sectoral value added, with entrepreneurship acting as a crucial amplifier of its impact. **
+The evidence underscores the importance of aligning digital policies with entrepreneurship development in order to maximize productivity, innovation, and sustainable economic growth.
   
-**These findings support the central hypothesis of the thesis and highlight entrepreneurship as a key amplifier of digitalization’s effects.**
 
 ---
 

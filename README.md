@@ -36,20 +36,22 @@ Three econometric models were developed:
 ---
 ## Pilot Extension – Sectoral Digital Economy Index (SDEI)
 
-In addition to econometric modelling, a pilot composite index was developed: the Sectoral Digital Economy Index (SDEI).
-Objective: Measure the impact of the digital economy at the sectoral level (starting with Education).
+As a novel extension of the econometric analysis, this thesis develops a **pilot composite index: the Sectoral Digital Economy Index (SDEI).**
+Objective: Measure the impact of the digital economy at the sectoral level (starting with Education Sector).
 Approach: Followed OECD Handbook on Composite Indicators.
-Selected significant and positive regression outputs as input indicators.
-Grouped them into four pillars (Connectivity & Access, Usage & Online Interaction, Skills & Human Capital, Innovation & Knowledge Base)
+Core idea: The SDEI is directly built on top of the regression results of the First Econometrivc Model above. Only those Digital Economy indicators that showed significant and positive effects on sectoral GVA are included.
+Design: Indicators are grouped into four conceptual pillars (Connectivity & Access, Usage & Online Interaction, Skills & Human Capital, Innovation & Knowledge Base)
 Applied Min–Max normalization and equal weighting (pilot version).
 
 Outputs:
-SDEI–Education computed for all OECD countries (2010–2022).
-An EU-only slice was included due to better data availability in Europe.
+The first application targets the Education sector, producing SDEI–Education scores for OECD countries (2010–2022).
+An EU-only slice is highlighted, given stronger data availability across European countries.
 
+Novelty: 
+To the best of our knowledge, no prior study has constructed a sector-specific digital economy index explicitly anchored in regression-based evidence of impact on Gross Value Added. This approach ensures that the index is not only descriptive, but also causally linked to economic performance.
 Future Steps:
 Extend the methodology to the remaining 19 sectors based on regression results.
-Provide a full sectoral mapping of digital transformation’s impact on GVA.
+Build a comprehensive, sectoral mapping of the Digital Economy’s contribution to value added across the entire economy (remaining 19 GVA Sectors).
 
 ## Results (high-level insights)
 - **Primary sectors (Agriculture, Mining):** digitalization has limited but emerging impact.  
@@ -65,6 +67,7 @@ Provide a full sectoral mapping of digital transformation’s impact on GVA.
   - `LASSOFE.py` → General regression model  
   - `SPCAFE.py` → SPCA with Fixed Effects  
   - `SPCAFAVAR.py` → SPCA-based FAVAR estimation and IRF generation
+  - `SDEI.py` → Sectoral Digital Economy Index Model Calculation
 - `data/raw/` → Original dataset (**DatasetMasterCAP.xlsx**)  
 - `data/processed/` → Cleaned datasets & model outputs  
 - `references/` → Indicator tables (DESI, DETF, GEM, etc.)  
@@ -84,6 +87,7 @@ Provide a full sectoral mapping of digital transformation’s impact on GVA.
    python code/LASSOFE.py
    python code/SPCAFE.py
    python code/SPCAFAVAR.py
+   python code/SDEI.py
    ```  
 4. Check results in `data/processed/` and figures in `figures/`.  
 

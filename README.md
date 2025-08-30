@@ -1,5 +1,5 @@
 
-# PhD – Digital Economy & Entrepreneurship and Gross Value Added per Activity
+# PhD Thesis – Digital Economy & Entrepreneurship and Gross Value Added per Activity
 
 This repository contains the code, data structure, and supporting material for my PhD thesis:  
 *The Impact of the Digital Economy on the Added Value per Economic Activity in OECD Countries: The Role of Entrepreneurship*  
@@ -60,7 +60,7 @@ Build a comprehensive, sectoral mapping of the Digital Economy’s contribution 
 - **Tertiary & knowledge-intensive sectors (ICT, Finance, Professional Services):** show the **largest gains from digital economy adoption**.  
 - **Entrepreneurship** magnifies these effects, especially in innovation-driven economies.  
 - IRF analysis reveals that digital shocks have **persistent positive effects** on sectoral GVA, with strongest long-term impact in services and ICT.  
-
+These findings support the central hypothesis of the thesis and highlight entrepreneurship as a key amplifier of digitalization’s effects.”
 ---
 
 ## Repository Structure
@@ -98,3 +98,4 @@ Build a comprehensive, sectoral mapping of the Digital Economy’s contribution 
 If you use this repository, please cite as:
 
 **Gkouskos, G. (2025). *PhD Thesis: The Impact of the Digital Economy on the Added Value per Economic Activity in OECD Countries: The Role of Entrepreneurship*. School of Economics, Business and International Studies, University of Piraeus, Greece.**
+Available at: https://github.com/georgiosgkouskos-creator/PhD-DigitalEconomy-Entrepreneurship-GVA

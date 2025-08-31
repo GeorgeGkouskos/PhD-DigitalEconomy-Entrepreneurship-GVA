@@ -99,7 +99,7 @@ The evidence underscores the importance of aligning digital policies with entrep
 - `references/` → Indicator tables (DESI, DETF, GEM, etc.)  
 - `figures/` → IRFs, coefficient plots, SPCA loadings  
 - `drafts/` → Working papers & thesis drafts  
-
+- `requirements/` → Python Libaries Used  
 ---
 
 ## How to Use

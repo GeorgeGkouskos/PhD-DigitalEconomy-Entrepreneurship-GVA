@@ -123,4 +123,4 @@ The evidence underscores the importance of aligning digital policies with entrep
 If you use this repository, please cite as:
 
 **Gkouskos, G. (2025). *PhD Thesis: The Impact of the Digital Economy on the Added Value per Economic Activity in OECD Countries: The Role of Entrepreneurship*. School of Economics, Business and International Studies, University of Piraeus, Greece.**
-Available at: [https://github.com/georgiosgkouskos-creator/PhD-DigitalEconomy-Entrepreneurship-GVA](https://github.com/GeorgeGkouskos/PhD-DigitalEconomy-Entrepreneurship-GVA)
+Available at: https://github.com/GeorgeGkouskos/PhD-DigitalEconomy-Entrepreneurship-GVA

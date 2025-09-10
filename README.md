@@ -58,28 +58,19 @@ Build a comprehensive, sectoral mapping of the Digital Economy’s contribution 
 
 The empirical analysis highlights differentiated sectoral responses to digitalization across the OECD economies:
 
-**-Primary sectors (Agriculture, Forestry & Fishing; Mining & Quarrying):** 
-Digitalisation effects are modest but emerging. Gains are primarily associated with incremental efficiency improvements, better resource allocation, and gradual adoption of digital practices.
+**Digital Economy:** a powerful but context-dependent driver. Strong and robust gains in Administrative and Support Services, Transportation and Storage, Electricity, Gas and Steam, Arts, Entertainment and Recreation, Education, and Mining and Quarrying. Mixed but mostly positive signals in ICT, Professional, Scientific and Technical, and Other Service Activities. Mixed or negative associations where affordability, integration costs, thin margins, or governance frictions bind, including Construction, Accommodation and Food Services, Households as Employers, and parts of Finance and Insurance.
 
-**-Secondary sectors (Manufacturing, Construction, Energy, Water & Waste Management):** 
-Digital transformation exerts a significant and measurable impact, mainly through productivity acceleration, process automation, and innovation-driven growth dynamics. These sectors show the clearest link between digital investment and tangible output gains.
+**Entrepreneurship:** a stable multiplier. Activation and knowledge assets reliably translate opportunities into value added. Framework frictions mainly scale magnitudes down rather than flipping signs.
 
-**-Tertiary and knowledge-intensive sectors (ICT, Finance, Professional, Scientific & Technical Services):** 
-The most pronounced and sustained benefits are recorded here. Their high absorptive capacity for digital technologies, combined with their role as platform enablers for the wider economy, amplifies spillover effects across sectors and countries.
+**Interactions:** Digital and entrepreneurial drivers are not additive. Synergies arise when digital institutions or connectivity align with entrepreneurial activation and knowledge. Balanced or friction-dominated patterns appear where access and affordability constraints or weak institutional depth meet administrative and financing bottlenecks.
 
-**-Entrepreneurship:** 
-Functions as both a transmission mechanism and an amplifier of digitalisation’s impact. Entrepreneurial activity enhances the scaling of digital innovations, with disproportionate effects in service-oriented and innovation-intensive economies.
-
-**-Dynamic responses (Impulse Response Functions):** 
-IRF analysis confirms that digital shocks yield persistent, long-run positive effects on GVA. The impacts are strongest and most resilient in services, ICT, and finance, underscoring the structural importance of digitalisation in these sectors.
-
-**-Sectoral Digital Economy Index (SDEI):** 
-The pilot SDEI for the Education sector demonstrates the feasibility and robustness of sector-specific digital economy measurement. Results are consistent across OECD countries and validate comparability within the EU sample. This provides a methodological foundation for scaling the index to other industries.
+**Dynamics (IRFs):** Entrepreneurship shocks are expansionary in every sector. Digital shocks are context-dependent. Connectivity and adoption produce positive responses where capabilities and institutions can absorb them. Affordability and integration pressures can generate short-run negatives even in sectors with long-run potential. At higher maturity, incremental producer-side gains diminish and a larger share of benefits appears as consumer welfare.
 
 **Key Takeaways**
--Digitalisation is a systematic driver of sectoral value added across OECD economies.
--Entrepreneurship acts as a crucial amplifier, deepening and broadening the gains from digitalisation.
--Policy strategies should integrate digitalisation and entrepreneurship development to maximise productivity, foster innovation, and sustain long-term economic growth.
+- The Digital Economy is not a universal booster but a conditional engine whose payoffs vary by sector.
+- Entrepreneurship provides the reliable transmission channel through which digital capabilities become value added.
+- Effective policy requires sector-differentiated sequencing that pairs connectivity and adoption with entrepreneurial capacity and knowledge while relieving affordability and framework frictions.
+- Sectoral indices and satellite accounts for the Digital Economy should track both enablers and barriers to support comparable, timely, and actionable statistics.
 
 These findings confirm the central hypothesis of the thesis: **the Digital Economy is a key driver of sectoral value added, with entrepreneurship acting as a crucial amplifier of its impact**. 
 

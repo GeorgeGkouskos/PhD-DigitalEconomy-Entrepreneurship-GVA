@@ -30,7 +30,7 @@ Three econometric models were developed:
    - Reduces dimensionality of high-dimensional indicator datasets.  
    - Extracts the most informative latent factors for sectoral analysis and interactions of Digital Economy and Entrepreneurship.  
 
-3. **SPCAFAVAR - Dynamics (Factor-Augmented Local Projections)**  
+3. **SPCA LP - Dynamics (Factor-Augmented Local Projections)**  
    - Studies dynamic interactions between digital economy / entrepreneurship indicators and sectoral GVA.  
    - Produces **Impulse Response Functions (IRFs)** showing the response of economic sectors to digital shocks.  
 Robustness: FDR-BH, DK bandwidth checks, within-VIF reporting, Mundlak/Hausman where relevant, CD and ADF residual diagnostics.

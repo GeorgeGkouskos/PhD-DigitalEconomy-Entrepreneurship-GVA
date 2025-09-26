@@ -78,10 +78,10 @@ The evidence underscores the importance of aligning digital policies with entrep
 
 ## Repository Structure
 - `code/`
-  - `LASSOFE.py` → General regression model  
-  - `SPCAFE.py` → SPCA with Fixed Effects  
-  - `SPCAFAVAR.py` → SPCA-based FAVAR estimation and IRF generation
-  - `SDEI.py` → Sectoral Digital Economy Index Model Calculation
+  - `LASSOFEGITHUB.py` → General regression model  
+  - `SPCAFEGITHUB.py` → SPCA with Fixed Effects  
+  - `SPCAFEGITHUB.py` → SPCA with Fixed Effects (plus IRF)
+  - `SDEIGITHUB.py` → Sectoral Digital Economy Index Model Calculation
 - `data/raw/` → Original dataset (**DatasetMasterCAP.xlsx**)  
 - `data/processed/` → Cleaned datasets & model outputs  
 - `references/` → Indicator tables (DESI, DETF, GEM, etc.)  

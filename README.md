@@ -33,6 +33,8 @@ Three econometric models were developed:
 3. **SPCA LP - Dynamics (Factor-Augmented Local Projections)**  
    - Studies dynamic interactions between digital economy / entrepreneurship indicators and sectoral GVA.  
    - Produces **Impulse Response Functions (IRFs)** showing the response of economic sectors to digital shocks.  
+
+
 Robustness: FDR-BH, DK bandwidth checks, within-VIF reporting, Mundlak/Hausman where relevant, CD and ADF residual diagnostics.
 ---
 ## Pilot Extension – Sectoral Digital Economy Index (SDEI)

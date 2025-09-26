@@ -98,10 +98,9 @@ The evidence underscores the importance of aligning digital policies with entrep
    ```  
 3. Run scripts:  
    ```bash
-   python code/LASSOFE.py
-   python code/SPCAFE.py
-   python code/SPCAFAVAR.py
-   python code/SDEI.py
+   python code/LASSOFEGITHUB.py
+   python code/SDEIGITHUB.py
+   python code/SPCAFEGITHUB.py
    ```  
 4. Check results in `data/processed/` and figures in `figures/`.  
 

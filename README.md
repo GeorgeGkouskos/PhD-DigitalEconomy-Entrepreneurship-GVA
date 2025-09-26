@@ -48,14 +48,14 @@ As a novel extension of the econometric analysis, this thesis develops a **pilot
 To the best of our knowledge, no prior study has constructed a sector-specific Digital Economy index explicitly anchored in regression-based evidence of impact on Gross Value Added. This approach ensures that the index is not only descriptive, but also causally linked to economic performance.
 
 **Future Steps:**
-Extend the methodology to the remaining 19 sectors based on regression results.
+Extend the methodology to the remaining 18 sectors based on regression results.
 Build a comprehensive, sectoral mapping of the Digital Economy’s contribution to value added across the entire economy (remaining 19 GVA Sectors).
 
 ## Results (high-level insights)
 
 The empirical analysis highlights differentiated sectoral responses to digitalization across the OECD economies:
 
-**Digital Economy:** Strong gains where access/usage are scaled or embedded in operational cores (e.g., Admin & Support, Transport & Storage, Utilities, Arts/Entertainment, Education, Mining). Mixed but leaning positive signals in ICT, Professional/Scientific, Other Services. Weaker or negative where affordability, integration costs, thin margins, or governance frictions bind (e.g., Construction, Accommodation & Food, Households as Employers).
+**Digital Economy:** Strong gains where access/usage are scaled or embedded in operational cores (e.g., Admin & Support, Transport & Storage, Utilities, Arts/Entertainment, Education, Mining). Mixed but leaning positive signals in ICT, Professional/Scientific, Other Services. Weaker or negative where affordability, integration costs, thin margins, or governance frictions bind (e.g., Construction, Accommodation & Food, Water and Waste and Households as Employers).
 
 **Entrepreneurship:** Reliable multiplier—activation & knowledge assets convert opportunities into GVA; framework frictions attenuate magnitudes.
 

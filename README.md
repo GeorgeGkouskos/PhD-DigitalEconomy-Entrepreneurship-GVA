@@ -21,7 +21,7 @@ Core claims:
 ## Methodology
 Three econometric models were developed:
 
-1. **LLASSOFE — Variable Discovery (Two-way Fixed Effects + Regularisation)**  
+1. **LASSOFE — Variable Discovery (Two-way Fixed Effects + Regularisation)**  
    - Two-way Fixed Effects; clustered/KCov SE / LASSO for high-dimensional selection; no leakage; VIF hygiene 
    - Identifies the key digital economy and entrepreneurship indicators driving GVA.  
    - Users can easily replace the dependent variable (e.g., DESI, DETF, GEM, GII, DII).  
